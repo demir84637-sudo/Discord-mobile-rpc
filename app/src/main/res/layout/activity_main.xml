@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="🎮 Game RPC Detector"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Oyun oynadığında yerel bildirim gösterir.\n(Discord hesabına bağlı değildir)"
+        android:textAlignment="center" />
+
+    <Switch
+        android:id="@+id/switchRpc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RPC'yi Etkinleştir"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnGrantAccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Kullanım Erişimi İzni Ver" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textSize="14sp" />
+
+</LinearLayout>
